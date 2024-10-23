@@ -11,7 +11,7 @@ export default function Header(props) {
   return (
     <div className="navbar bg-base-100">
     <div className="flex-1">
-      <Link className="btn btn-ghost text-xl">daisyUI</Link>
+      <Link className="btn btn-ghost text-xl">RK Saykot</Link>
     </div>
     <div className="flex-none">
       <ul className="menu menu-horizontal px-1">
@@ -24,7 +24,7 @@ export default function Header(props) {
         <li>
           <details>
             <summary>Parent</summary>
-            <ul className="bg-base-100 rounded-t-none p-2">
+            <ul className="bg-base-500 rounded-t-none p-2">
               <li><Link>Link 1</Link></li>
               <li><Link>Link 2</Link></li>
             </ul>
