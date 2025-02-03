@@ -19,7 +19,6 @@ export default function SignUp() {
     setPassword(event.target.value)
   }
 
-
   const handleSubmit = (event) => {
     event.preventDefault()
 
